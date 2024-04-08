@@ -1,1 +1,1 @@
-export { default } from './GenderSwitcher.tsx';
+export { default } from './Header';

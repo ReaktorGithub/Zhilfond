@@ -1,12 +1,13 @@
 import styles from './styles.module.scss';
 
-const GenderSwitcher = () => {
+const MainLayout = () => {
 	return (
 		<div className={styles.root}>
-
+			<div />
+			<div className={styles.divider}/>
+			<div />
 		</div>
 	);
 };
 
-export default GenderSwitcher;
-
+export default MainLayout;

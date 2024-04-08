@@ -1,1 +1,1 @@
-export { default } from './GenderSwitcher';
+export { default } from './MainLayout';

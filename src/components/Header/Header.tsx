@@ -1,12 +1,13 @@
 import styles from './styles.module.scss';
 
-const GenderSwitcher = () => {
+const Header = () => {
 	return (
 		<div className={styles.root}>
-
+			<h1>Жилфонд</h1>
+			<a href='/' className={styles.link}>Пользователь</a>
 		</div>
 	);
 };
 
-export default GenderSwitcher;
+export default Header;
 

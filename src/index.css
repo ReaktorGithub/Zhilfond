@@ -7,9 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-* 
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #E31F24;
+}
+
+a, p {
+  font-family: Montserrat, sans-serif;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
