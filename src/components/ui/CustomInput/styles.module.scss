@@ -1,0 +1,22 @@
+.input {
+  width: 100%;
+  height: 46px;
+  border-radius: 8px;
+  border: 1px solid #E9ECEF;
+  outline: none;
+  padding: 0 16px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  color: #76787D;
+  transition: border .2s;
+
+  &:hover {
+    border: 1px solid #E9ECEF;
+  }
+
+  &:focus {
+    border: 1px solid #b2b2b4;
+  }
+}

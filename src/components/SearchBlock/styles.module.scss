@@ -1,0 +1,35 @@
+.root {
+  width: 100%;
+  padding: 27px 36px 27px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.headingText {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  color: #333333;
+}
+
+.regularText {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  color: #76787D;
+}
+
+.blockSearch {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.blockResult {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
