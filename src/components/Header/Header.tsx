@@ -1,6 +1,7 @@
 import styles from './styles.module.scss';
+import {FC} from "react";
 
-const Header = () => {
+const Header: FC = () => {
 	return (
 		<div className={styles.root}>
 			<h1>Жилфонд</h1>
